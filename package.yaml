@@ -1,4 +1,4 @@
-name:                hello-world
+name:                haskell-item-server
 version:             0.1.0.0
 github:              "githubuser/hello-world"
 license:             BSD-3-Clause
@@ -43,7 +43,7 @@ library:
   source-dirs: src
 
 executables:
-  hello-world-exe:
+  haskell-item-server-exe:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -51,10 +51,10 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - hello-world
+    - haskell-item-server
 
 tests:
-  hello-world-test:
+  haskell-item-server-test:
     main:                Spec.hs
     source-dirs:         test
     ghc-options:
@@ -62,4 +62,4 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - hello-world
+    - haskell-item-server
