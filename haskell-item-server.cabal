@@ -46,7 +46,7 @@ library
     , time
   default-language: Haskell2010
 
-executable haskell-item-server-exe
+executable item-server
   main-is: Main.hs
   other-modules:
       Paths_haskell_item_server
